@@ -12,8 +12,6 @@ from PyQt5.QtWidgets import (QApplication, QGraphicsView, QGraphicsScene, QGraph
 #
 # Ce programme permet de faire 1 points rouge à côté de 1 000, 10 000 ou 100 000 points noirs
 # dans le but de représenter visuellement ce que signifie un cas sur 100 000.
-# Version 1
-#test
 #
 
 
