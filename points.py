@@ -73,13 +73,15 @@ class App(QWidget):
 
 				x = randint(calcul_taille_bordure_gauche,int(calcul_taille_bordure_droite))
 				y = randint(calcul_taille_bordure_haut,calcul_taille_bordure_bas) 
+
 				painter.drawRect(x,y,1,1)
 			
 			myPen.setColor(Qt.red)
 			myPen.setBrush(Qt.red)
 
-			x = randint(calcul_taille_bordure_gauche,int(self.width - calcul_taille_bordure_droite))
+			x = randint(calcul_taille_bordure_gauche,int(calcul_taille_bordure_droite))
 			y = randint(calcul_taille_bordure_haut,calcul_taille_bordure_bas) 
+			print(x,y)
 			painter.setPen(myPen)
 			painter.drawRect(x,y,1,1)
 
